@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Releme</title>
+    <style>
+        .container {
+            position: relative;
+            width: 1000px;
+            margin: 150px;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 440px;
+            grid-gap: 40px;
+        }
+        
+        .container .card {
+            position: relative;
+            background: black;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+        
+        .card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 20px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container .card .img-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+        }
+        
+        .container .card:hover .img-box {
+            opacity: 0.5;
+        }
+        
+        .container .card .img-box img {
+            width: 100%;
+        }
+        
+        .container .card .content {
+            position: absolute;
+            width: 100%;
+            height: 60%;
+            bottom: -100%;
+            padding: 20px;
+            padding-top: 60px;
+            box-sizing: border-box;
+            text-align: center;
+            transition: 0.5s;
+        }
+        
+        .container .card:hover .content {
+            bottom: 0;
+        }
+        
+        .container .card:nth-child(1) .content {
+            background: linear-gradient(0deg, orange, transparent);
+        }
+        
+        .container .card:nth-child(2) .content {
+            background: linear-gradient(0deg, purple, transparent);
+        }
+        
+        .container .card:nth-child(3) .content {
+            background: linear-gradient(0deg, brown, transparent);
+        }
+        
+        .container .card .content h2 {
+            margin: 0 0 10px;
+            padding: 0;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .container .card .content h2 span {
+            color: yellow;
+            font-size: 16px;
+        }
+        
+        .container .card:hover .content {
+            bottom: 0;
+        }
+        
+        .container .card:nth-child(1) .content {
+            background: linear-gradient(0deg, orange, transparent);
+        }
+        
+        .container .card:nth-child(2) .content {
+            background: linear-gradient(0deg, purple, transparent);
+        }
+        
+        .container .card:nth-child(3) .content {
+            background: linear-gradient(0deg, brown, transparent);
+        }
+        
+        .container .card .content h2 {
+            margin: 0 0 10px;
+            padding: 0;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .container .card .content h2 span {
+            color: yellow;
+            font-size: 16px;
+            padding: 0 10px;
+            font-size: 18px;
+            transition: 0.5s;
+        }
+        
+        h1,
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: sans-serif;">
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="https://static.toiimg.com/thumb/msid-90123563,imgsize-26876,width-400,resizemode-4/90123563.jpg">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="https://www.91-img.com/gallery_images_uploads/6/a/6a9f02bade5fd68562f490fdaf499674ad27f8d1.JPG?tr=h-550,w-0,c-at_max">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="https://images.news18.com/ibnlive/uploads/2021/12/realme-gt-2-pro-6.jpg">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="img-box">
+                <img src="https://image01.realme.net/general/20220513/1652442346708.png">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-box">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202204/Realme_GT_2_Pro_India_launch.jpg?gBuNQgicElbsniCAHDRt5RlzwHx23_8J&size=1200:675">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-box">
+                <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/02/11/c61d0945751bba3a4f110de50869d154_original.jpg?impolicy=abp_images&imwidth=720">
+            </div>
+            <div class="content">
+                <h2>Tanvi gupta<br><span>Web Developer</span></h2>
+                <p>the khndelwal telecome are provied all brand phone with your finiance facility plese connect us to mr mukesh Khandealwal</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

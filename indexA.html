@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <style>
+        body {
+            background-color: #efefef;
+            background-image: url("imag/33333.jpg");
+            background-size: cover;
+        }
+        
+        .containerm {
+            min-height: 100vh;
+            overflow: hidden;
+            width: 100%;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        
+        .image {
+            overflow: hidden;
+            height: 300px;
+            width: 300px;
+            position: relative;
+            cursor: pointer;
+            margin: 0 15px;
+            box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+            transition: .5s;
+            background-color: #555
+        }
+        
+        .image:after {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            width: 500px;
+            height: 500px;
+            transform: translate(-140%, -50%);
+            background-color: blue;
+            opacity: 0.8;
+            border-radius: 50%;
+            transition: .8s
+        }
+        
+        .image:hover:after {
+            transform: translate(-50%, -50%)
+        }
+        
+        .image:hover img {
+            transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+        }
+        
+        img {
+            position: absolute;
+            height: 110%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .8s
+        }
+        
+        i {
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-2000px, -50%);
+            color: #fff;
+            transition: .8s;
+            transition-timing-function: ease-in
+        }
+        
+        P {
+            text-align: center;
+            text-transform: uppercase;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;font-size:100px; text-shadow: 5px 5px; color:cadetblue;"> Store</h1>
+    <p> this is a phone showrom </p>
+    <p> to purches all brand phone</p>
+
+    <p> And also avlible the phone relative accessory</p>
+    <p> with all finance facility are avlible to Khandelwal telecome</p>
+
+
+
+
+    <div class="containerm ">
+        <div class="row ">
+            <div class="col-md-4 ">
+                <div class="image "> <img src="imag/home1.jpg " alt=" "> <i class="fa fa-search fa-3x "></i> </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="image "> <img src="imag/home2.jpg " alt=" "> <i class="fa fa-search fa-3x "></i> </div>
+            </div>
+            <video width="20%" alt="new  york" controls>
+                 
+                <source src="viedo 1.mp4" type="video/mp4">
+                </video>
+
+        </div>
+    </div>
+
+    <div class="containerm ">
+        <div class="row ">
+            <div class="col-md-4 ">
+                <div class="image "> <img src="imag/reward.jpg" alt=" "> <i class="fa fa-search fa-3x "></i> </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="image "> <img src="imag/f7 oppo.jpg " alt=" "> <i class="fa fa-search fa-3x "></i> </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="image "> <img src="imag/camera (1).jpg " alt=" "> <i class="fa fa-search fa-3x "></i> </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                Khandelwal telecome
+                            </h6>
+                            <p>
+                                Khandelwal telecome are avalible to all brand smart/<br> i-phone with finance facility.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                            <p>
+                                <a class="text-white"> all phone charger</a>
+                            </p>
+                            <p>
+                                <a class="text-white">boot headphone</a>
+                            </p>
+                            <p>
+                                <a class="text-white">glasscover</a>
+                            </p>
+                            <p>
+                                <a class="text-white">smartwatch</a>
+                            </p>
+
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                            <p><i class="fas fa-home mr-3"></i>mr mukesh Khandelwal</p>
+                            <p><i class="fas fa-envelope mr-3"></i> Khandelwaltel@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> 9461405152</p>
+                            <p><i class="fas fa-print mr-3"></i> 7014246630</p>
+                        </div>
+
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+
+                        <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, #FFFf)"></div><a class="text-white" href="https://mdbootstrap.com/">tanvi gupta</a> >
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
+</body>
+
+</html>
